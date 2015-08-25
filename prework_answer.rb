@@ -3,7 +3,6 @@ def survival
     puts "Indicate your expected survival rate entering into The Iron Yard."
     puts "Enter a number between 1 and 10, where 1 is 'CRASH N BURN' and 10 is 'I CAN NOW SEE THE MATRIX': "
     ratings = gets.chomp.to_i
-    ratings.count
 
     if ratings <= 3
         puts "Houston we have a problem!"
